@@ -1,0 +1,215 @@
+2022-12-12 22:44:38.762 [main] INFO  Main - Please choose one of the following options
+2022-12-12 22:44:38.765 [main] INFO  Main - 1 - For customer
+2022-12-12 22:44:38.765 [main] INFO  Main - 2 - For employee
+2022-12-12 22:44:38.765 [main] INFO  Main - 3 - For management
+2022-12-12 22:44:38.765 [main] INFO  Main - 0 - To exit
+2022-12-12 22:44:43.504 [main] INFO  Main - 1 - Add employee to list
+2022-12-12 22:44:43.504 [main] INFO  Main - 2 - Remove employee from list
+2022-12-12 22:44:43.504 [main] INFO  Main - 9 - To main page
+2022-12-12 22:44:47.594 [main] INFO  Main - Name of employee
+2022-12-12 22:44:52.126 [main] INFO  Main - Id of employee
+2022-12-12 22:44:54.815 [main] INFO  Main - Click 1 to go main page
+2022-12-12 22:44:54.815 [main] INFO  Main - Click 0 to exit     
+2022-12-12 22:45:01.968 [main] INFO  Main - Please choose one of the following options
+2022-12-12 22:45:01.968 [main] INFO  Main - 1 - For customer
+2022-12-12 22:45:01.969 [main] INFO  Main - 2 - For employee
+2022-12-12 22:45:01.969 [main] INFO  Main - 3 - For management
+2022-12-12 22:45:01.969 [main] INFO  Main - 0 - To exit
+2022-12-12 22:45:03.547 [main] INFO  Main - 1 - Add employee to list
+2022-12-12 22:45:03.548 [main] INFO  Main - 2 - Remove employee from list
+2022-12-12 22:45:03.548 [main] INFO  Main - 9 - To main page
+2022-12-12 22:45:05.380 [main] INFO  Main - Name of employee
+2022-12-12 22:45:09.062 [main] INFO  Main - Id of employee
+2022-12-12 22:45:10.391 [main] INFO  Main - Click 1 to go main page
+2022-12-12 22:45:10.392 [main] INFO  Main - Click 0 to exit     
+2022-12-12 22:45:12.031 [main] INFO  Main - Please choose one of the following options
+2022-12-12 22:45:12.031 [main] INFO  Main - 1 - For customer
+2022-12-12 22:45:12.032 [main] INFO  Main - 2 - For employee
+2022-12-12 22:45:12.032 [main] INFO  Main - 3 - For management
+2022-12-12 22:45:12.032 [main] INFO  Main - 0 - To exit
+2022-12-12 22:45:15.815 [main] INFO  Main - 1 - Make an order
+2022-12-12 22:45:15.815 [main] INFO  Main - 2 - Check order balance
+2022-12-12 22:45:15.815 [main] INFO  Main - 3 - Check Payment information
+2022-12-12 22:45:15.816 [main] INFO  Main - 9 - To main page
+2022-12-12 22:45:18.602 [main] INFO  Main - Please insert your name
+2022-12-12 22:45:23.140 [main] INFO  Main - Please insert your email
+2022-12-12 22:45:25.193 [main] INFO  Main - Please select an employee and their Id from the list
+2022-12-12 22:45:25.209 [main] INFO  Computer Repair Service Log - {name=Juan Perez and taskId=0}
+2022-12-12 22:45:25.209 [main] INFO  Computer Repair Service Log - {name=Mike Jack and taskId=1}
+2022-12-12 22:45:36.086 [main] INFO  Main - How many components are you looking to repair?
+2022-12-12 22:45:38.459 [main] INFO  Main - Name of component that needs repair
+2022-12-12 22:45:41.847 [main] INFO  Main - Model of component that needs repair
+2022-12-12 22:45:44.860 [main] INFO  Main - Issue of component that needs repair
+2022-12-12 22:45:53.529 [main] INFO  Main - Amount of cores
+2022-12-12 22:45:56.757 [main] INFO  Main - Name on card
+2022-12-12 22:46:02.285 [main] INFO  Main - Card number
+2022-12-12 22:46:07.211 [main] INFO  Main - Expiration date
+2022-12-12 22:46:11.245 [main] INFO  Main - Order was created, your order number is: 0
+2022-12-12 22:46:11.246 [main] INFO  Main - Click 1 to go main page
+2022-12-12 22:46:11.246 [main] INFO  Main - Click 0 to exit     
+2022-12-12 22:46:18.928 [main] INFO  Main - Please choose one of the following options
+2022-12-12 22:46:18.928 [main] INFO  Main - 1 - For customer
+2022-12-12 22:46:18.928 [main] INFO  Main - 2 - For employee
+2022-12-12 22:46:18.928 [main] INFO  Main - 3 - For management
+2022-12-12 22:46:18.928 [main] INFO  Main - 0 - To exit
+2022-12-12 22:46:20.339 [main] INFO  Main - 1 - Make an order
+2022-12-12 22:46:20.339 [main] INFO  Main - 2 - Check order balance
+2022-12-12 22:46:20.339 [main] INFO  Main - 3 - Check Payment information
+2022-12-12 22:46:20.339 [main] INFO  Main - 9 - To main page
+2022-12-12 22:46:22.782 [main] INFO  Main - Insert your Order Number
+2022-12-12 22:46:24.778 [main] INFO  Main - Total Cost is: 250
+2022-12-12 22:46:24.778 [main] INFO  Main - Click 1 to go main page
+2022-12-12 22:46:24.779 [main] INFO  Main - Click 0 to exit     
+2022-12-12 22:46:42.262 [main] INFO  Main - Please choose one of the following options
+2022-12-12 22:46:42.263 [main] INFO  Main - 1 - For customer
+2022-12-12 22:46:42.263 [main] INFO  Main - 2 - For employee
+2022-12-12 22:46:42.263 [main] INFO  Main - 3 - For management
+2022-12-12 22:46:42.263 [main] INFO  Main - 0 - To exit
+2022-12-12 22:46:44.497 [main] INFO  Main - 1 - Make an order
+2022-12-12 22:46:44.498 [main] INFO  Main - 2 - Check order balance
+2022-12-12 22:46:44.498 [main] INFO  Main - 3 - Check Payment information
+2022-12-12 22:46:44.498 [main] INFO  Main - 9 - To main page
+2022-12-12 22:46:46.307 [main] INFO  Main - Insert your Order Number
+2022-12-12 22:46:48.753 [main] INFO  Main - payment.Card@418c5a9c
+2022-12-12 22:46:48.754 [main] INFO  Main - Click 1 to go main page
+2022-12-12 22:46:48.754 [main] INFO  Main - Click 0 to exit     
+2022-12-12 22:47:17.445 [main] INFO  Main - Please choose one of the following options
+2022-12-12 22:47:17.447 [main] INFO  Main - 1 - For customer
+2022-12-12 22:47:17.447 [main] INFO  Main - 2 - For employee
+2022-12-12 22:47:17.447 [main] INFO  Main - 3 - For management
+2022-12-12 22:47:17.447 [main] INFO  Main - 0 - To exit
+2022-12-12 22:47:20.244 [main] INFO  Main - 1 - Add employee to list
+2022-12-12 22:47:20.244 [main] INFO  Main - 2 - Remove employee from list
+2022-12-12 22:47:20.245 [main] INFO  Main - 9 - To main page
+2022-12-12 22:47:21.898 [main] INFO  Main - Name of employee
+2022-12-12 22:47:24.153 [main] INFO  Main - Id of employee
+2022-12-12 22:47:25.544 [main] INFO  Main - Click 1 to go main page
+2022-12-12 22:47:25.545 [main] INFO  Main - Click 0 to exit     
+2022-12-12 22:47:26.998 [main] INFO  Main - Please choose one of the following options
+2022-12-12 22:47:26.998 [main] INFO  Main - 1 - For customer
+2022-12-12 22:47:26.998 [main] INFO  Main - 2 - For employee
+2022-12-12 22:47:26.998 [main] INFO  Main - 3 - For management
+2022-12-12 22:47:26.999 [main] INFO  Main - 0 - To exit
+2022-12-12 22:47:29.797 [main] INFO  Main - 1 - Add employee to list
+2022-12-12 22:47:29.797 [main] INFO  Main - 2 - Remove employee from list
+2022-12-12 22:47:29.797 [main] INFO  Main - 9 - To main page
+2022-12-12 22:47:31.196 [main] INFO  Main - Name of employee
+2022-12-12 22:47:33.856 [main] INFO  Main - Id of employee
+2022-12-12 22:47:34.598 [main] INFO  Main - Click 1 to go main page
+2022-12-12 22:47:34.598 [main] INFO  Main - Click 0 to exit     
+2022-12-12 22:47:35.935 [main] INFO  Main - Please choose one of the following options
+2022-12-12 22:47:35.935 [main] INFO  Main - 1 - For customer
+2022-12-12 22:47:35.936 [main] INFO  Main - 2 - For employee
+2022-12-12 22:47:35.936 [main] INFO  Main - 3 - For management
+2022-12-12 22:47:35.936 [main] INFO  Main - 0 - To exit
+2022-12-12 22:47:37.387 [main] INFO  Main - 1 - Add employee to list
+2022-12-12 22:47:37.388 [main] INFO  Main - 2 - Remove employee from list
+2022-12-12 22:47:37.388 [main] INFO  Main - 9 - To main page
+2022-12-12 22:47:38.698 [main] INFO  Main - Name of employee
+2022-12-12 22:47:41.610 [main] INFO  Main - Id of employee
+2022-12-12 22:47:44.367 [main] INFO  Main - Click 1 to go main page
+2022-12-12 22:47:44.367 [main] INFO  Main - Click 0 to exit     
+2022-12-12 22:47:45.844 [main] INFO  Main - Please choose one of the following options
+2022-12-12 22:47:45.844 [main] INFO  Main - 1 - For customer
+2022-12-12 22:47:45.844 [main] INFO  Main - 2 - For employee
+2022-12-12 22:47:45.844 [main] INFO  Main - 3 - For management
+2022-12-12 22:47:45.845 [main] INFO  Main - 0 - To exit
+2022-12-12 22:47:48.079 [main] INFO  Main - 1 - Add employee to list
+2022-12-12 22:47:48.079 [main] INFO  Main - 2 - Remove employee from list
+2022-12-12 22:47:48.079 [main] INFO  Main - 9 - To main page
+2022-12-12 22:47:49.476 [main] INFO  Main - Name of employee
+2022-12-12 22:48:19.305 [main] INFO  Main - Id of employee
+2022-12-12 22:48:21.533 [main] INFO  Main - Click 1 to go main page
+2022-12-12 22:48:21.533 [main] INFO  Main - Click 0 to exit     
+2022-12-12 22:48:22.883 [main] INFO  Main - Please choose one of the following options
+2022-12-12 22:48:22.883 [main] INFO  Main - 1 - For customer
+2022-12-12 22:48:22.883 [main] INFO  Main - 2 - For employee
+2022-12-12 22:48:22.884 [main] INFO  Main - 3 - For management
+2022-12-12 22:48:22.884 [main] INFO  Main - 0 - To exit
+2022-12-12 22:48:24.403 [main] INFO  Main - 1 - Make an order
+2022-12-12 22:48:24.404 [main] INFO  Main - 2 - Check order balance
+2022-12-12 22:48:24.404 [main] INFO  Main - 3 - Check Payment information
+2022-12-12 22:48:24.404 [main] INFO  Main - 9 - To main page
+2022-12-12 22:48:26.151 [main] INFO  Main - Please insert your name
+2022-12-12 22:48:29.114 [main] INFO  Main - Please insert your email
+2022-12-12 22:48:30.716 [main] INFO  Main - Please select an employee and their Id from the list
+2022-12-12 22:48:30.723 [main] INFO  Computer Repair Service Log - {name=Juan and taskId=1}
+2022-12-12 22:48:30.723 [main] INFO  Computer Repair Service Log - {name=Pepepe and taskId=2}
+2022-12-12 22:49:24.416 [main] INFO  Main - How many components are you looking to repair?
+2022-12-12 22:49:26.070 [main] INFO  Main - Name of component that needs repair
+2022-12-12 22:49:29.040 [main] INFO  Main - Model of component that needs repair
+2022-12-12 22:49:32.784 [main] INFO  Main - Issue of component that needs repair
+2022-12-12 22:49:35.358 [main] INFO  Main - Amount of cores
+2022-12-12 22:49:37.034 [main] INFO  Main - Name on card
+2022-12-12 22:49:39.430 [main] INFO  Main - Card number
+2022-12-12 22:49:42.319 [main] INFO  Main - Expiration date
+2022-12-12 22:49:45.951 [main] INFO  Main - Order was created, your order number is: 0
+2022-12-12 22:49:45.951 [main] INFO  Main - Click 1 to go main page
+2022-12-12 22:49:45.952 [main] INFO  Main - Click 0 to exit     
+2022-12-12 22:49:49.622 [main] INFO  Main - Please choose one of the following options
+2022-12-12 22:49:49.622 [main] INFO  Main - 1 - For customer
+2022-12-12 22:49:49.622 [main] INFO  Main - 2 - For employee
+2022-12-12 22:49:49.623 [main] INFO  Main - 3 - For management
+2022-12-12 22:49:49.623 [main] INFO  Main - 0 - To exit
+2022-12-12 22:49:51.040 [main] INFO  Main - 1 - Make an order
+2022-12-12 22:49:51.041 [main] INFO  Main - 2 - Check order balance
+2022-12-12 22:49:51.041 [main] INFO  Main - 3 - Check Payment information
+2022-12-12 22:49:51.041 [main] INFO  Main - 9 - To main page
+2022-12-12 22:49:52.588 [main] INFO  Main - Insert your Order Number
+2022-12-12 22:49:54.114 [main] INFO  Main - Card{name='David', cardNumber='1020304', expirationDate='10/17'}
+2022-12-12 22:49:54.114 [main] INFO  Main - Click 1 to go main page
+2022-12-12 22:49:54.115 [main] INFO  Main - Click 0 to exit     
+2022-12-12 22:49:58.287 [main] INFO  Main - Please choose one of the following options
+2022-12-12 22:49:58.287 [main] INFO  Main - 1 - For customer
+2022-12-12 22:49:58.287 [main] INFO  Main - 2 - For employee
+2022-12-12 22:49:58.287 [main] INFO  Main - 3 - For management
+2022-12-12 22:49:58.287 [main] INFO  Main - 0 - To exit
+2022-12-12 22:50:00.990 [main] INFO  Main - 1 - Show list of employees
+2022-12-12 22:50:00.990 [main] INFO  Main - 2 - Finish order
+2022-12-12 22:50:00.991 [main] INFO  Main - 3 - Show list of orders
+2022-12-12 22:50:00.991 [main] INFO  Main - 4 - Show customer payment information
+2022-12-12 22:50:00.991 [main] INFO  Main - 9 - To main page
+2022-12-12 22:50:03.787 [main] INFO  Computer Repair Service Log - {name=Juan and taskId=1}
+2022-12-12 22:50:03.787 [main] INFO  Computer Repair Service Log - {name=Pepepe and taskId=2}
+2022-12-12 22:50:03.788 [main] INFO  Main - Click 1 to go main page
+2022-12-12 22:50:03.788 [main] INFO  Main - Click 0 to exit     
+2022-12-12 22:50:07.634 [main] INFO  Main - Please choose one of the following options
+2022-12-12 22:50:07.634 [main] INFO  Main - 1 - For customer
+2022-12-12 22:50:07.635 [main] INFO  Main - 2 - For employee
+2022-12-12 22:50:07.635 [main] INFO  Main - 3 - For management
+2022-12-12 22:50:07.635 [main] INFO  Main - 0 - To exit
+2022-12-12 22:50:12.631 [main] INFO  Main - 1 - Show list of employees
+2022-12-12 22:50:12.631 [main] INFO  Main - 2 - Finish order
+2022-12-12 22:50:12.632 [main] INFO  Main - 3 - Show list of orders
+2022-12-12 22:50:12.632 [main] INFO  Main - 4 - Show customer payment information
+2022-12-12 22:50:12.632 [main] INFO  Main - 9 - To main page
+2022-12-12 22:50:20.602 [main] INFO  Main - Insert Order Number
+2022-12-12 22:50:28.012 [main] INFO  Computer Repair Service Log - Card{name='David', cardNumber='1020304', expirationDate='10/17'}
+2022-12-12 22:50:28.012 [main] INFO  Main - Please choose one of the following options
+2022-12-12 22:50:28.013 [main] INFO  Main - 1 - For customer
+2022-12-12 22:50:28.013 [main] INFO  Main - 2 - For employee
+2022-12-12 22:50:28.013 [main] INFO  Main - 3 - For management
+2022-12-12 22:50:28.013 [main] INFO  Main - 0 - To exit
+2022-12-12 22:50:55.142 [main] INFO  Main - 1 - Make an order
+2022-12-12 22:50:55.143 [main] INFO  Main - 2 - Check order balance
+2022-12-12 22:50:55.143 [main] INFO  Main - 3 - Check Payment information
+2022-12-12 22:50:55.143 [main] INFO  Main - 9 - To main page
+2022-12-12 22:50:56.479 [main] INFO  Main - Please insert your name
+2022-12-12 22:51:01.591 [main] INFO  Main - Please insert your email
+2022-12-12 22:51:02.822 [main] INFO  Main - Please select an employee and their Id from the list
+2022-12-12 22:51:02.822 [main] INFO  Computer Repair Service Log - {name=Juan and taskId=1}
+2022-12-12 22:51:02.823 [main] INFO  Computer Repair Service Log - {name=Pepepe and taskId=2}
+2022-12-12 23:09:55.710 [main] INFO  Main - Please choose one of the following options
+2022-12-12 23:09:55.713 [main] INFO  Main - 1 - For customer
+2022-12-12 23:09:55.713 [main] INFO  Main - 2 - For employee
+2022-12-12 23:09:55.713 [main] INFO  Main - 3 - For management
+2022-12-12 23:09:55.713 [main] INFO  Main - 0 - To exit
+2022-12-12 23:09:59.300 [main] INFO  Main - Please choose one of the following options
+2022-12-12 23:09:59.300 [main] INFO  Main - 1 - For customer
+2022-12-12 23:09:59.300 [main] INFO  Main - 2 - For employee
+2022-12-12 23:09:59.301 [main] INFO  Main - 3 - For management
+2022-12-12 23:09:59.301 [main] INFO  Main - 0 - To exit
+2022-12-12 23:10:09.298 [main] INFO  Main - 1 - Make an order
+2022-12-12 23:10:09.298 [main] INFO  Main - 2 - Check order balance
+2022-12-12 23:10:09.298 [main] INFO  Main - 3 - Check Payment information
+2022-12-12 23:10:09.298 [main] INFO  Main - 9 - To main page

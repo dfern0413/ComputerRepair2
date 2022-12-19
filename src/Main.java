@@ -1,9 +1,6 @@
 
 import components.*;
-import exception.InvalidComponentException;
-import exception.InvalidEmailException;
-import exception.InvalidMenuOption;
-import exception.InvalidNameException;
+import exception.*;
 import order.ComputerRepairService;
 
 import order.Order;
@@ -13,16 +10,19 @@ import payment.Card;
 import person.Customer;
 import person.Employee;
 
-
-
 import java.util.ArrayList;
 import java.util.*;
 
 public class Main {
     private static final Logger LOGGER = LogManager.getLogger(Main.class);
 
+    public static void main(String[] args) throws InvalidNameException, InvalidEmailException, InvalidComponentException, InvalidMenuOptionException {
+        //Employees starting list
+        Employee employee1 = new Employee("Frank Gomez", 0);
+        ComputerRepairService.addEmployee(employee1);
+        Employee employee2 = new Employee("Henry Lopez", 1);
+        ComputerRepairService.addEmployee(employee2);
 
-    public static void main(String[] args) throws InvalidNameException, InvalidEmailException, InvalidComponentException, InvalidMenuOption {
         printOptions();
         Scanner scanner = new Scanner(System.in);
         String option;
@@ -40,7 +40,7 @@ public class Main {
         LOGGER.info("0 - To exit");
     }
 
-    private static void makeAChoice(String choice) throws InvalidNameException, InvalidEmailException, InvalidComponentException, InvalidMenuOption {
+    private static void makeAChoice(String choice) throws InvalidNameException, InvalidEmailException, InvalidComponentException, InvalidMenuOptionException {
         Scanner scanner = new Scanner(System.in);
         switch (choice) {
             case "0":
@@ -75,12 +75,21 @@ public class Main {
         LOGGER.info("9 - To main page");
     }
 
-    private static void makeCustomerChoice(String option) throws InvalidNameException, InvalidEmailException, InvalidComponentException, InvalidMenuOption {
+    private static void makeCustomerChoice(String option) throws InvalidNameException, InvalidEmailException, InvalidComponentException, InvalidMenuOptionException {
         Scanner scanner = new Scanner(System.in);
         switch (option) {
             case "1":
-                LOGGER.info("Please insert your name");
-                String customerName = scanner.nextLine();
+                String customerName;
+                try {
+                    LOGGER.info("Please insert your name");
+                    customerName = scanner.nextLine();
+                    if (customerName.isEmpty()) {
+                        throw new InvalidNameException("Error: Incorrect name input");
+                    }
+                } catch (InvalidNameException e) {
+                    LOGGER.info("Error: Incorrect name input");
+                    break;
+                }
 
                 LOGGER.info("Please insert your email");
                 String customerEmail = scanner.nextLine();
@@ -89,10 +98,32 @@ public class Main {
                 Customer customerCreated = new Customer(customerName, customerEmail);
 
                 LOGGER.info("Please select an employee and their Id from the list");
+
                 ComputerRepairService.showEmployeeList();
                 String employeeName = scanner.nextLine();
-                int employeeId = Integer.parseInt(scanner.nextLine());
 
+
+//                ComputerRepairService.showEmployeeList();
+//                String employeeName = scanner.nextLine();
+                int employeeId = Integer.parseInt(scanner.nextLine());
+                try{
+                    Employee employeeAssigned = new Employee(employeeName, employeeId);
+                    ComputerRepairService computerRepairService = new ComputerRepairService();
+                    List<Employee> employeeList = computerRepairService.retrieveEmployeeList();
+                    LOGGER.info(employeeList.get(1));
+                    for(int i = 0; i < employeeList.size(); i++){
+                        employeeList.get(i);
+                    }
+                    if(employeeList.contains(new Employee(employeeName, employeeId))){
+                        LOGGER.info("Found");
+                    }
+                    else {
+                        throw new InvalidEmployeeSelectedException("Error: Invalid Employee Assigned");
+                    }
+                }catch (InvalidEmployeeSelectedException e){
+                    LOGGER.info("Error: Invalid Employee Selected");
+                    break;
+                }
                 Employee employeeAssigned = new Employee(employeeName, employeeId);
 
                 // Add an option to pick how many components and then for loop
@@ -103,13 +134,23 @@ public class Main {
 
                 for (int i = 0; i < componentAmount; i++) {
 
+                    String componentName = null;
                     LOGGER.info("Name of component that needs repair");
-                    String componentName = scanner.nextLine();
+                    try {
+                        componentName = scanner.nextLine();
+                        if(componentName.equals("Cpu") || componentName.equals("Keyboard") || componentName.equals("Storage")
+                        || componentName.equals("Ram") || componentName.equals("Motherboard")){} else {
+                        throw new InvalidComponentException("Error: Invalid Component Name");
+                        }
+                    }catch (InvalidComponentException e){
+                        LOGGER.info("Error: Invalid Component Name");
+                        ;
+
+                    }
                     LOGGER.info("Model of component that needs repair");
                     String componentModel = scanner.nextLine();
                     LOGGER.info("Issue of component that needs repair");
                     int componentIssue = Integer.parseInt(scanner.nextLine());
-
 
                     switch (componentName) {
                         case "Cpu":
@@ -197,7 +238,7 @@ public class Main {
 
             default:
                 String message2 = "Error: You chose invalid menu option";
-                throw new InvalidMenuOption(message2);
+                throw new InvalidMenuOptionException(message2);
         }
     }
 
@@ -209,7 +250,7 @@ public class Main {
         LOGGER.info("9 - To main page");
     }
 
-    private static void makeEmployeeChoice(String option) throws InvalidNameException, InvalidEmailException, InvalidComponentException, InvalidMenuOption {
+    private static void makeEmployeeChoice(String option) throws InvalidNameException, InvalidEmailException, InvalidComponentException, InvalidMenuOptionException {
         Scanner scanner = new Scanner(System.in);
         switch (option) {
             case "1":
@@ -238,7 +279,7 @@ public class Main {
                 break;
             default:
                 String message = "Error: You chose an invalid menu option";
-                throw new InvalidMenuOption(message);
+                throw new InvalidMenuOptionException(message);
         }
     }
 
@@ -248,7 +289,7 @@ public class Main {
         LOGGER.info("9 - To main page");
     }
 
-    private static void makeManagementChoice(String option) throws InvalidComponentException, InvalidNameException, InvalidEmailException, InvalidMenuOption {
+    private static void makeManagementChoice(String option) throws InvalidComponentException, InvalidNameException, InvalidEmailException, InvalidMenuOptionException {
         Scanner scanner = new Scanner(System.in);
         switch (option) {
             case "1":

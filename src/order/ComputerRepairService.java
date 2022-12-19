@@ -72,4 +72,9 @@ public class ComputerRepairService implements IRetrieveFromList {
     public Card retrieveCard(int orderNumber) {
         return cardList.get(orderNumber);
     }
+
+    @Override
+    public List<Employee> retrieveEmployeeList() {
+        return employeeList;
+    }
 }

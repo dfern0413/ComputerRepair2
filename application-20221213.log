@@ -87,3 +87,35 @@
 2022-12-13 10:54:35.060 [main] INFO  LinkedList Logger - 1
 2022-12-13 10:54:35.060 [main] INFO  LinkedList Logger - 2
 2022-12-13 10:54:35.060 [main] INFO  LinkedList Logger - Empty
+2022-12-13 11:26:14.451 [main] INFO  Main - Please choose one of the following options
+2022-12-13 11:26:14.455 [main] INFO  Main - 1 - For customer
+2022-12-13 11:26:14.456 [main] INFO  Main - 2 - For employee
+2022-12-13 11:26:14.456 [main] INFO  Main - 3 - For management
+2022-12-13 11:26:14.456 [main] INFO  Main - 0 - To exit
+2022-12-13 11:26:19.459 [main] INFO  Main - 1 - Add employee to list
+2022-12-13 11:26:19.459 [main] INFO  Main - 2 - Remove employee from list
+2022-12-13 11:26:19.459 [main] INFO  Main - 9 - To main page
+2022-12-13 11:26:25.133 [main] INFO  Main - Please choose one of the following options
+2022-12-13 11:26:25.133 [main] INFO  Main - 1 - For customer
+2022-12-13 11:26:25.133 [main] INFO  Main - 2 - For employee
+2022-12-13 11:26:25.133 [main] INFO  Main - 3 - For management
+2022-12-13 11:26:25.133 [main] INFO  Main - 0 - To exit
+2022-12-13 11:26:27.509 [main] INFO  Main - 1 - Make an order
+2022-12-13 11:26:27.509 [main] INFO  Main - 2 - Check order balance
+2022-12-13 11:26:27.511 [main] INFO  Main - 3 - Check Payment information
+2022-12-13 11:26:27.511 [main] INFO  Main - 9 - To main page
+2022-12-13 11:26:36.847 [main] INFO  Main - Please choose one of the following options
+2022-12-13 11:26:36.847 [main] INFO  Main - 1 - For customer
+2022-12-13 11:26:36.847 [main] INFO  Main - 2 - For employee
+2022-12-13 11:26:36.847 [main] INFO  Main - 3 - For management
+2022-12-13 11:26:36.848 [main] INFO  Main - 0 - To exit
+2022-12-13 11:26:38.975 [main] INFO  Main - 1 - Show list of employees
+2022-12-13 11:26:38.975 [main] INFO  Main - 2 - Finish order
+2022-12-13 11:26:38.975 [main] INFO  Main - 3 - Show list of orders
+2022-12-13 11:26:38.975 [main] INFO  Main - 4 - Show customer payment information
+2022-12-13 11:26:38.975 [main] INFO  Main - 9 - To main page
+2022-12-13 11:26:56.357 [main] INFO  Main - Please choose one of the following options
+2022-12-13 11:26:56.357 [main] INFO  Main - 1 - For customer
+2022-12-13 11:26:56.357 [main] INFO  Main - 2 - For employee
+2022-12-13 11:26:56.357 [main] INFO  Main - 3 - For management
+2022-12-13 11:26:56.357 [main] INFO  Main - 0 - To exit

@@ -2,7 +2,6 @@ package order;
 
 
 import components.*;
-import exception.InvalidOrderNumberException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import person.Customer;
@@ -37,12 +36,6 @@ public class Order implements ICalculateCost, IMakeOrder{
                 ", employee=" + employee +
                 ", component=" + component +
                 '}';
-    }
-
-    public static void validateOrderNumber(int orderNumber) throws InvalidOrderNumberException {
-        if (orderNumber<0){
-            throw new InvalidOrderNumberException("Order Number cannot be negative");
-        }
     }
     public int repairPartCost() {
         int totalCost = 0;

@@ -11,7 +11,7 @@ import person.Employee;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ComputerRepairService implements IRetrieveFromList {
+public class ComputerRepairService implements IRetrieveCard, IRetrieveList {
     static List<Order> orderList = new ArrayList<>();
     static List<Customer> customerList = new ArrayList<>();
     static List<Employee> employeeList = new ArrayList<>();

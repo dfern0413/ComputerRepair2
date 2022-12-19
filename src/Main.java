@@ -9,6 +9,7 @@ import org.apache.logging.log4j.LogManager;
 import payment.Card;
 import person.Customer;
 import person.Employee;
+import person.Person;
 
 import java.util.ArrayList;
 import java.util.*;
@@ -90,13 +91,19 @@ public class Main {
                     LOGGER.info("Error: Incorrect name input");
                     break;
                 }
+                String customerEmail = null;
+                try {
+                    LOGGER.info("Please insert your email");
+                    customerEmail = scanner.nextLine();
+                    if(customerEmail.isEmpty()){
+                        throw new InvalidEmailException("Error: Invalid email used");
+                    }
 
-                LOGGER.info("Please insert your email");
-                String customerEmail = scanner.nextLine();
-
-                //Make customer class
+                }catch (InvalidEmailException e){
+                    LOGGER.info("Error: Invalid email used");
+                    break;
+                }
                 Customer customerCreated = new Customer(customerName, customerEmail);
-
                 LOGGER.info("Please select an employee and their Id from the list");
 
                 ComputerRepairService.showEmployeeList();
@@ -107,19 +114,19 @@ public class Main {
 //                String employeeName = scanner.nextLine();
                 int employeeId = Integer.parseInt(scanner.nextLine());
                 try{
-                    Employee employeeAssigned = new Employee(employeeName, employeeId);
                     ComputerRepairService computerRepairService = new ComputerRepairService();
                     List<Employee> employeeList = computerRepairService.retrieveEmployeeList();
-                    LOGGER.info(employeeList.get(1));
-                    for(int i = 0; i < employeeList.size(); i++){
-                        employeeList.get(i);
+                    for( int i = 0; i < employeeList.size(); i++){
+                        Person personita = employeeList.get(i);
+                        String name = personita.getFullname();
+                        if(name.equals(employeeName)){
+                            break;
+                        }
+                        if(i == employeeList.size()-1){
+                            throw new InvalidEmployeeSelectedException("Error: Invalid Employee Assigned");
+                        }
                     }
-                    if(employeeList.contains(new Employee(employeeName, employeeId))){
-                        LOGGER.info("Found");
-                    }
-                    else {
-                        throw new InvalidEmployeeSelectedException("Error: Invalid Employee Assigned");
-                    }
+
                 }catch (InvalidEmployeeSelectedException e){
                     LOGGER.info("Error: Invalid Employee Selected");
                     break;
